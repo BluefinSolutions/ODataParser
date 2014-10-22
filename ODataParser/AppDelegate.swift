@@ -3,7 +3,7 @@
 //  ODataParser
 //
 //  Created by Brenton O'Callaghan on 22/10/2014.
-//  Copyright (c) 2014 The SCN. All rights reserved.
+//  Completely open source without any warranty to do with what you like :-)
 //
 
 import UIKit

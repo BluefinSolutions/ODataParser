@@ -13,6 +13,9 @@
 		6D66BE6219F84EE0005C8991 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D66BE6119F84EE0005C8991 /* Images.xcassets */; };
 		6D66BE6519F84EE0005C8991 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D66BE6319F84EE0005C8991 /* LaunchScreen.xib */; };
 		6D66BE7119F84EE0005C8991 /* ODataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D66BE7019F84EE0005C8991 /* ODataParserTests.swift */; };
+		6D66BE7E19F84F23005C8991 /* ODataCollectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D66BE7B19F84F23005C8991 /* ODataCollectionManager.swift */; };
+		6D66BE7F19F84F23005C8991 /* oDataFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D66BE7C19F84F23005C8991 /* oDataFilter.swift */; };
+		6D66BE8019F84F23005C8991 /* ODataServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D66BE7D19F84F23005C8991 /* ODataServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		6D66BE6A19F84EE0005C8991 /* ODataParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODataParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D66BE6F19F84EE0005C8991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D66BE7019F84EE0005C8991 /* ODataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODataParserTests.swift; sourceTree = "<group>"; };
+		6D66BE7B19F84F23005C8991 /* ODataCollectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataCollectionManager.swift; sourceTree = "<group>"; };
+		6D66BE7C19F84F23005C8991 /* oDataFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oDataFilter.swift; sourceTree = "<group>"; };
+		6D66BE7D19F84F23005C8991 /* ODataServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		6D66BE5719F84EE0005C8991 /* ODataParser */ = {
 			isa = PBXGroup;
 			children = (
+				6D66BE7A19F84EF0005C8991 /* ODataParser */,
 				6D66BE5A19F84EE0005C8991 /* AppDelegate.swift */,
 				6D66BE5C19F84EE0005C8991 /* ViewController.swift */,
 				6D66BE5E19F84EE0005C8991 /* Main.storyboard */,
@@ -110,6 +117,16 @@
 				6D66BE6F19F84EE0005C8991 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D66BE7A19F84EF0005C8991 /* ODataParser */ = {
+			isa = PBXGroup;
+			children = (
+				6D66BE7B19F84F23005C8991 /* ODataCollectionManager.swift */,
+				6D66BE7C19F84F23005C8991 /* oDataFilter.swift */,
+				6D66BE7D19F84F23005C8991 /* ODataServiceManager.swift */,
+			);
+			name = ODataParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D66BE8019F84F23005C8991 /* ODataServiceManager.swift in Sources */,
 				6D66BE5D19F84EE0005C8991 /* ViewController.swift in Sources */,
+				6D66BE7E19F84F23005C8991 /* ODataCollectionManager.swift in Sources */,
 				6D66BE5B19F84EE0005C8991 /* AppDelegate.swift in Sources */,
+				6D66BE7F19F84F23005C8991 /* oDataFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
